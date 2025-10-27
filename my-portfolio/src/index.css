@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom styles for custom cursor, if used later */
+.cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+/* small utility to smooth images */
+img {
+  image-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* You can add global overrides here */
