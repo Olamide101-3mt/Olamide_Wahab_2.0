@@ -1,24 +1,3 @@
-// import React from "react";
-// import { motion } from "framer-motion";
-
-// export default function ProjectCard({ project, onOpen }) {
-//   return (
-//     <motion.div
-//       whileHover={{ scale: 1.03, y: -6 }}
-//       className="relative rounded-xl overflow-hidden cursor-pointer shadow-lg"
-//       onClick={onOpen}
-//     >
-//       <img src={project.image} alt={project.title} className="w-full h-56 object-cover" />
-//       <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 hover:opacity-100 transition p-4 flex flex-col justify-end">
-//         <div className="text-white">
-//           <h3 className="text-lg font-semibold">{project.title}</h3>
-//           <p className="text-sm opacity-90">{project.tags.join(" • ")}</p>
-//         </div>
-//       </div>
-//     </motion.div>
-//   );
-// }
-
 import React from "react";
 import { motion } from "framer-motion";
 
