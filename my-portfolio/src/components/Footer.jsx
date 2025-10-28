@@ -162,7 +162,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t text-center text-sm text-gray-500">
           <p>© {new Date().getFullYear()} Olamide Wahab. All rights reserved</p>
-          <p>Back to top</p>
+          <p><a href="/">Back to top</a></p>
         </div>
       </div>
     </footer>
