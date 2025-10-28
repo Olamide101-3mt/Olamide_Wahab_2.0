@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import AnimatedBlob from "./AnimatedBlob";
+import profileImg from "/src/assets/IMG_6480.jpg";
 
 export default function Hero() {
   return (
@@ -38,7 +39,7 @@ export default function Hero() {
           <AnimatedBlob />
           <div className="absolute inset-6 rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src="/src/assets/IMG_6480.jpg"
+              src={profileImg}
               alt="Portrait"
               className="w-full h-full object-cover"
             />
